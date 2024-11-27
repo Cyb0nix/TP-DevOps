@@ -19,7 +19,7 @@ spec:
           image: harbor.glyps.tech/cybonix/frontend:1
           imagePullPolicy: Always
           ports:
-            - containerPort: 5432
+            - containerPort: 80
           env:
             - name: POSTGRES_PASSWORD
               value: postgres
