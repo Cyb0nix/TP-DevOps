@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend-container
-          image: harbor.glyps.tech/backend:1
+          image: harbor.glyps.tech/cybonix/backend:1
           imagePullPolicy: Always
           ports:
             - containerPort: 5432
