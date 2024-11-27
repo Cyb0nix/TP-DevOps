@@ -1,0 +1,1 @@
+kubectl create secret docker-registry harbor --docker-server=harbor.glyps.tech --docker-username=Cybonix --docker-password=
